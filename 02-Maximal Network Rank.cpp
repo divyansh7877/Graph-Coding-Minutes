@@ -2,8 +2,8 @@
 using namespace std;
 
 int maximalNetworkRank(int n, vector<vector<int>> roads) {
-    vector<int>deg(n);
-    vector<vector<int>>edges(n,vector<int>(n));
+    vector<int> deg(n);
+    vector<vector<int>> edges(n,vector<int>(n));
     for(int i=0;i<roads.size();i++)
     {
         int x=roads[i][0],y=roads[i][1];

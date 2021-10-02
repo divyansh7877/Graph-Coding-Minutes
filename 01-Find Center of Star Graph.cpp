@@ -3,10 +3,11 @@ using namespace std;
 
 #define maxn 100001
 
-int findCenter(vector<vector<int>> edges) {
-    vector<int>deg(maxn);
+int findCenter(vector<vector<int>> edges) 
+{
+    vector<int> deg(maxn);
     int n=edges.size(),x,y;
-    set<int>s;
+    set<int> s;
     for(int i=0;i<n;i++)
     {
         x=edges[i][0],y=edges[i][1];
