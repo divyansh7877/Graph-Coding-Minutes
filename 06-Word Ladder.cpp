@@ -2,7 +2,7 @@
 using namespace std;
 
 int ladderLength(string beginWord, string endWord, vector<string> wordList) {
-    unordered_set<string>s;
+    unordered_set<string> s;
     for(auto itr:wordList)
     {
         s.insert(itr);
